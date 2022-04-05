@@ -23,4 +23,3 @@ Foreach ($line in $Data) {
 }
 
 $OutFile | Export-Csv -Path C:\Temp\1Password_Import_File.csv -NoTypeInformation -Encoding UTF8
-# Dette er en test
